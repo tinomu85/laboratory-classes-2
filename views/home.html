@@ -1,11 +1,47 @@
-<!-- 🏗 Structo the Builder -->
-<!-- Utwórz podstawową strukturę dokumentu HTML dla strony głównej. -->
-
-<!-- 🏗 Structo the Builder -->
-<!-- Ustaw tytuł strony na "Shop - Home" -->
- 
-<!-- 🏗 Structo the Builder -->
-<!-- Główny nagłówek strony. -->
-
-<!-- 🏗 Structo the Builder -->
-<!-- Dodaj nawigację z linkami do różnych sekcji sklepu. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop - Home</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+        color: #007bff;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Home</h1>
+      <nav>
+        <a href="/product/add">Add product</a>
+        <a href="/product/new">Newest product</a>
+        <a href="/logout">Logout</a>
+      </nav>
+    </div>
+  </body>
+</html>
